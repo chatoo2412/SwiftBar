@@ -127,8 +127,8 @@ Where:
 **Text Formatting**:
 | Parameter | Value | Description |
 | ------------- | ------------- |------------- | 
-| `color` | CSS color or HEX, `light_color,dark_color` | Sets item text color. If only one color is provided, it is used for both light and dark appearance. |
-| `sfcolor` | CSS color or HEX, `light_color,dark_color` | Sets SF Symbol color. If only one color is provided, it is used for both light and dark appearance. If you fame multiple SF Symbols you can provide different colors by adding index, like this `sfcolor2` |
+| `color` | CSS color, HEX or macOS system color, `light_color,dark_color` | Sets item text color. If only one color is provided, it is used for both light and dark appearance. System colors (`labelColor`, `secondaryLabelColor`, `tertiaryLabelColor`, `quaternaryLabelColor`, `systemRed`, `systemYellow`, `systemBlue`, ...) adapt to the appearance on their own, and the label colors stay legible on the translucent menu like the system's own menu text. |
+| `sfcolor` | CSS color, HEX or macOS system color, `light_color,dark_color` | Sets SF Symbol color. If only one color is provided, it is used for both light and dark appearance. If you fame multiple SF Symbols you can provide different colors by adding index, like this `sfcolor2` |
 | `font` | macOS font name | Sets font name to use in item text |
 | `size` | Number | Sets item text size |
 | `md` | True | Enables markdown support in menu title for `**bold**` and `*italic*` |

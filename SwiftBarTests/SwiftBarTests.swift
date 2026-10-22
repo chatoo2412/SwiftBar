@@ -4298,6 +4298,16 @@ struct MenuDiffTests {
     }
 }
 
+// MARK: - System Color Name Tests
+
+struct SystemColorNameTests {
+    @Test func testColorAcceptsSystemColorName() {
+        let params = MenuLineParameters(line: "Updated 3h ago | color=secondaryLabelColor")
+
+        #expect(params.color == NSColor.secondaryLabelColor)
+    }
+}
+
 // MARK: - Menu Bar Image Appearance Tests
 
 struct MenuBarImageAppearanceTests {
